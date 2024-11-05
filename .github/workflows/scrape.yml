@@ -3,8 +3,10 @@ name: Scrape latest data
 on:
   push:
     branches:
-      - master
+      - 2024
   workflow_dispatch:
+  schedule:
+  - cron:  '*/5 * * * *'
 
 jobs:
   scheduled:

@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "finalhandler": "^1.1.2",
-    "playwright-webkit": "^1.5.2",
-    "puppeteer": "^5.4.1",
+    "playwright-webkit": "^1.58.2",
+    "puppeteer": "^24.37.5",
     "serve-static": "^1.16.2"
   },
   "scripts": {
